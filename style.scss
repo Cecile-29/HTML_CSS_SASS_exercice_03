@@ -1,0 +1,7 @@
+@mixin treatementList {
+  color: pink;
+  text-decoration: underline red;
+}
+.partie {
+  @include treatementList;
+}
